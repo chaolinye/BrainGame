@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg01"
+    android:orientation="vertical" >
+    <!-- 游戏结束界面布局 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gameover02"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/over_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0f0"
+            android:textSize="25pt"/>
+        <TextView 
+	    android:id="@+id/grade"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textSize="35pt"
+	    android:textColor="#000"/> 
+	    <TextView
+            android:id="@+id/over_max_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00f"
+            android:textSize="18pt"/>
+	    <TextView
+	        android:id="@+id/desc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="10pt"
+	        android:textColor="#646b6f"/>
+    </LinearLayout>
+	   <LinearLayout android:layout_width="match_parent"
+	       android:layout_height="0dip"
+	       android:layout_weight="1"
+	       android:gravity="center"
+	       >
+	       <TextView android:id="@+id/backTv" 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:textColor="#fff"
+	           android:gravity="center"
+	           android:background="@drawable/tvbg03"
+	           android:text="Once Again"
+	           android:textSize="15pt"/>
+	   </LinearLayout>
+
+</LinearLayout>

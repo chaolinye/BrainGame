@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg02">
+    <!-- 主界面布局 -->
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    >
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:typeface="serif"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#444444"
+			android:textSize="19pt"
+	        android:text="逆战惯性"/>
+	
+	    <ImageButton 
+	        android:id="@+id/maxGrade"
+	        android:layout_width="70dp"
+	        android:layout_height="70dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/maxbtn03"
+	        android:scaleType="fitEnd"
+	        android:background="#0000"
+	        />
+	
+	
+	</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    >
+    <ImageButton 
+        android:id="@+id/classics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/classicbtn01"
+        android:scaleType="fitCenter"
+        android:background="#0000"
+        />
+</RelativeLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+<RelativeLayout 
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+    <ImageButton 
+        android:id="@+id/challenge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="#0000"
+		android:scaleType="fitCenter"
+		android:src="@drawable/challengebtn01"/>
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    >
+    <ImageButton 
+        android:id="@+id/breakthrough"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#0000"
+        android:src="@drawable/breakbtn01"
+        android:scaleType="fitCenter"
+        />
+</RelativeLayout>
+</LinearLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+    <CheckBox 
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音效"/>
+    <CheckBox 
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音乐"/>
+    </LinearLayout>
+</RelativeLayout>"
+
+</LinearLayout>

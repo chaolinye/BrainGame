@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg02">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="right"
+        >
+        <ImageButton android:id="@+id/back"
+			android:background="@drawable/backbtn03"
+			android:scaleType="fitEnd"
+			android:layout_width="70dp"
+	        android:layout_height="70dp"
+            
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/greenpaper"
+        >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经典模式最高分"
+            android:textSize="20dp"
+            android:textColor="#f00"
+            />
+        <TextView android:id="@+id/maxClassics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginLeft="20px"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/pinkpaper"
+        android:gravity="center"
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="挑战模式最高分"
+            android:textSize="20dp"
+            android:textColor="#0f0"
+        />
+       <TextView android:id="@+id/maxChallenge"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginLeft="20px"/>
+        
+        
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/greenpaper"
+        >
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="闯关模式最高分"
+            android:textSize="20dp"
+            android:textColor="#00f"
+         />
+        <TextView android:id="@+id/maxBreakthrough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp"
+            android:layout_marginLeft="20px"/>
+    </LinearLayout>
+
+</LinearLayout>

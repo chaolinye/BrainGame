@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReverseGame</string>
+    <string name="hello_world">Hello world!</string>
+	<!-- red -->
+    <color name="C0">#ff0000</color>
+    
+    <!-- orange -->
+    <color name="C1">#ff9900</color>
+    
+    <!-- yellow -->
+    <color name="C2">#ffff00</color>
+    
+    <!-- green -->
+    <color name="C3">#008000</color>
+    
+    <!-- blue -->
+    <color name="C4">#0000ff</color>
+    
+    <!-- purple -->
+    <color name="C5">#800080</color>
+    
+    <!-- pink -->
+    <color name="C6">#ff69b4</color>
+    
+    <!-- brown -->
+    <color name="C7">#8b4513</color>
+    
+    <!-- cyan青色 -->
+    <color name="C8">#00ffff</color>
+    
+    <!-- gray -->
+    <color name="C9">#808080</color>
+</resources>
